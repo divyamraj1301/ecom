@@ -9,7 +9,9 @@ import { SearchProvider } from './context/_search';
 import { CartProvider } from './context/cart';
 import 'antd/dist/reset.css';
 
-export const serverAPI = "http://localhost:8080/api/v1";
+// export const serverAPI = "http://localhost:8080/api/v1";
+export const serverAPI = "https://blackbuk.onrender.com/api/v1";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
